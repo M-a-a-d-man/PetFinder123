@@ -1,0 +1,6 @@
+1:robert:Dog:Beagle:Infant:Female:Other_dogs:dsdfsdf:dwfsdf@gorkg.com:dsfs:none
+2:robert:Dog:Havanese:Young:Male:Small_children:brean:kmkmk@eklf.cpom:lknkn:images/white_dog.jpg
+3:robert:Cat:Golden retriever:Adult:Female:Small_children:l;sdfmk:efe@bruh.com:opwesfjkw:none
+4:robert:Dog:Havanese:Young:Male:Other_dogs,Other_cats,Small_children:,lmklm:efe@bruh.com:kjkkljkl:none
+5:robert:Dog:Beagle:Young:Male:Other_dogs,Other_cats,Small_children:branditogamito:kmkmk@eklf.cpom:evan:none
+6:bran:Dog:Bernese Mountain Dog:Infant:Female:Other_dogs,Other_cats,Small_children:bran:kmkmk@eklf.cpom:knknklnnkl:none

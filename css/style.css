@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+
+
+body{
+    margin: 0;
+}
+
+.logo{
+    max-width: 300px;
+    max-height: 400px;
+    padding-left: 15px;
+    padding-top: 10px;
+   
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: rgb(42, 22, 12);
+}
+.time{
+    float: right;
+    padding-top: 13px;
+    color: white;
+}
+.middle{
+    display: flex;
+    flex-direction:row;
+    height: 100vh;
+}
+
+.side-bar{
+    background-color: rgb(153, 89, 43);
+    flex-shrink: 0;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+}
+
+.side-bar a, .side-bar button{
+    display: block;
+    text-decoration: none;
+    color: rgb(42, 22, 12);
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.side-bar a:hover, .side-bar button:hover{
+    background-color: rgb(230, 177, 126);
+    color:white;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 5px;
+    border-color: white;
+    
+}
+
+#content{
+    padding:10px;
+    overflow: scroll;
+    display:flex;
+    background-image: url("../images/background.jpg");
+    background-size: 100vh;
+    height:100vh;
+    margin: unset;
+    flex-grow: 1;
+    
+}
+
+.footer{
+    
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:  rgb(230, 177, 126);
+    color: rgb(42, 22, 12);
+}
+
+.alert{
+    font-size: large;
+    box-shadow:0px 0px 10px white
+}
+ /* #area{
+    background-image: url("../images/background.jpg");
+    background-size: 100vh;
+    height:100vh;
+    margin: unset;      
+    /* background image url comes from freepik: 
+    https://www.freepik.com/free-vector/cute-colorful-kitten-pow-pattern-design_2709577.htm#query=dog%20wallpaper&position=10&from_view=keyword&track=sph
+     */
+    
+ 
+#content-area{
+    margin: 10px;
+    padding-bottom:50px;
+    background-color: rgb(255,255, 255,0.65);
+    opacity:1;
+    flex-grow: 1;
+    
+    
+}
+
+#image-wrapper{
+  height: 400px;
+  width:400px;
+  position: relative;
+}
+.previous{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border:0;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:15px;
+  padding-right:15px; 
+  border-radius:5px;
+  background-color: rgb(255,255,255,0);
+}
+.previous:hover{
+color: white;
+background-color: rgb(0, 0, 0,0.5);
+}
+
+.next{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right:0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: rgb(255,255,255,0);
+    border:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:5px;
+}
+.next:hover{
+    color: white;
+    background-color: rgb(0, 0, 0,0.7);
+   
+    }
+
+#slideshow{
+    align-content: center;
+}
+
+td{
+    border: 2px groove;
+    width:250px;
+    height:250px;
+    padding: 0px;
+    margin: 0px;
+    overflow-wrap: break-word;
+    
+}
+
+table{
+    border-spacing:15px;
+    
+}
+img.slides{
+    width:250px;
+    height:250px;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+}
+
+  .description{
+    font-size: 16px;
+    background-color: rgb(255, 255, 255,0.8);
+}
+.interested{
+    margin-left: 5px;
+}
+
+#loginButton{
+    margin-top: 5px;
+
+}
+#pet-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pet{
+    flex-basis: calc(33.33% - 20px); /* 33.33% width with 20px margin */
+    margin: 10px;
+    max-width: 450px;
+}
+
+#result-section{
+    margin-bottom: 10px;
+}
+
+img .pet_image{
+    max-width: 400px;
+    max-height:250px;
+    width: 400px;
+    height:250px;
+}

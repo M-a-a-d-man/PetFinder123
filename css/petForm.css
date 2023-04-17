@@ -1,0 +1,42 @@
+.header img{
+    max-width: 300px;
+    max-height: 400px;
+    padding-left: 15px;
+    
+}
+.header{
+    background-color:rgb(42, 22, 12);
+}
+input{
+    margin: 10px;
+}
+select{
+    margin-top: 10px;
+}
+
+#form{
+    margin:10px;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin:10px;
+    padding:10px;
+}
+#intro{
+    padding-top: 0px;
+    
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/background.jpg");
+    background-size: 100vh;
+    margin: unset;
+    /* 
+    background image url comes from freepik: 
+    https://www.freepik.com/free-vector/cute-colorful-kitten-pow-pattern-design_2709577.htm#query=dog%20wallpaper&position=10&from_view=keyword&track=sph
+    
+    */
+}
